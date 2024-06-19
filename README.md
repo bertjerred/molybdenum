@@ -15,5 +15,5 @@ Overall, this is meant for basic sound-making on low-end devices.
 [ORCID](https://orcid.org/0000-0001-8121-0285)
 [LinkedIn](https://www.linkedin.com/in/bertjerred/)
 
-GitHub: [molybdenum](https://github.com/bertjerred/molybdenum)
-[Blog](https://muzoinkaudio.blogspot.com)
+GitHub: (https://github.com/bertjerred/molybdenum)
+(https://muzoinkaudio.blogspot.com)
