@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensure the page is rendered correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molybdenum Keys</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Defer loading of JavaScript files to ensure the DOM is fully loaded first -->
+    <script defer src="renderer.js"></script>
+    <script defer src="audio/audioContext.js"></script>
+    <script defer src="audio/oscillator.js"></script>
+    <script defer src="audio/midiHandler.js"></script>
+</head>
+
+<body>
+    <!-- Main header with a heading for the application title -->
+    <header tabindex="-1">
+        <h1>Molybdenum</h1>
+    </header>
+    <main>
+        <!-- Section for MIDI controls -->
+        <section id="controls" aria-labelledby="controls-heading" tabindex="-1">
+            <h2 id="controls-heading">MIDI Controls</h2>
+            <label for="midiSelect">Select MIDI Device:</label>
+            <select id="midiSelect" aria-label="MIDI Device Selection"></select>
+        </section>
+        <!-- Section for track controls -->
+        <section id="tracks" aria-labelledby="tracks-heading">
+            <h2 id="tracks-heading">Track Controls</h2>
+            <div class="track" id="track1">
+                <label for="oscillatorType">Oscillator Type:</label>
+                <select id="oscillatorType" aria-label="Oscillator Type Selection">
+                    <option value="sine">Sine</option>
+                    <option value="square">Square</option>
+                    <option value="sawtooth">Sawtooth</option>
+                    <option value="triangle">Triangle</option>
+                </select>
+                <label for="volume1">Volume:</label>
+                <input type="range" id="volume1" min="0" max="100" value="50" aria-label="Track Volume Control">
+            </div>
+        </section>
+    </main>
+    <!-- Footer with copyright information -->
+    <footer tabindex="-1">
+        <p>&copy; 2024 Bert Jerred</p>
+    </footer>
+
+    <!-- Inline script to initialize MIDI on page load -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check if the initMIDI function is available and call it
+            if (typeof initMIDI === 'function') {
+                initMIDI();
+            } else {
+                console.error('Required functions are not available');
+            }
+        });
+    </script>
+</body>
+
+</html>
