@@ -10,7 +10,7 @@ These are ripe for improvements or for breaking out into the UI.
 
 There is plenty of console logging going on, too (CTRL+SHIFT+I).
 I designed this app as an exercise in learning about Electron.
-Overall, this is meant basic sound-making onlow-end devices.
+Overall, this is meant for basic sound-making on low-end devices.
 
 [ORCID](https://orcid.org/0000-0001-8121-0285)
 [LinkedIn](https://www.linkedin.com/in/bertjerred/)
