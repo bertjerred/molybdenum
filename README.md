@@ -12,7 +12,4 @@ There is plenty of console logging going on, too (CTRL+SHIFT+I).
 I designed this app as an exercise in learning about Electron.
 Overall, this is meant for basic sound-making on low-end devices.
 
-(https://orcid.org/0000-0001-8121-0285)
-(https://www.linkedin.com/in/bertjerred/)
-(https://github.com/bertjerred/molybdenum)
-(https://muzoinkaudio.blogspot.com)
+https://muzoinkaudio.blogspot.com
