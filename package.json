@@ -1,0 +1,38 @@
+{
+  "name": "molybdenum",
+  "version": "0.0.3",
+  "description": "A simple MIDI-controlled music app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "midi",
+    "synthesizer",
+    "audio",
+    "music"
+  ],
+  "author": "Bert Jerred",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.molybdenum.app",
+    "mac": {
+      "category": "public.app-category.music"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage",
+      "maintainer": "Bert Jerred",
+      "vendor": "Bert Jerred"
+    }
+  }
+}
