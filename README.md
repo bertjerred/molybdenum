@@ -11,6 +11,3 @@ These are ripe for improvements or for breaking out into the UI.
 There is plenty of console logging going on, too (CTRL+SHIFT+I).
 I designed this app as an exercise in learning about Electron.
 Overall, this is meant for basic sound-making on low-end devices.
-
-I am planning to host executables here:
-https://muzoinkaudio.blogspot.com
